@@ -21,7 +21,7 @@ Testing the server and client
 
 ## PROGRAM:
 
-##Server Code:
+## Server Code:
 ```
 
 import socket
@@ -59,7 +59,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
 
 ```
-##Client Code:
+## Client Code:
 ```
 import socket
 HOST = "127.0.0.1"  # The server's hostname or IP address
@@ -73,10 +73,10 @@ print(f"Received {data!r}")
 
 ```
 ## OUTPUT:
-##Server Side:
+## Server Side:
 ![230758905-6b305563-6c97-4644-9d02-061623b77159](https://github.com/ASHWINKUMAR2903/Echoserver/assets/119407186/8d455d86-f822-464a-ad84-935b422f58b3)
 
-##Client Side:
+## Client Side:
 ![230758640-ade6f2f9-3c15-48c0-9e5e-0b7fa8fa42c9](https://github.com/ASHWINKUMAR2903/Echoserver/assets/119407186/36c69cb5-33ce-41ba-b0fc-bbb99ace28f9)
 
 ## RESULT:
